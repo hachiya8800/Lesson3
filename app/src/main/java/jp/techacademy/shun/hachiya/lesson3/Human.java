@@ -8,13 +8,9 @@ class Human extends Animal implements Thinkable {
     String hobby = "";
 
     // sayメソッド用コンストラクタ
-    public Human(String name, int age) {
+    public Human(String name, int age, String hobby) {
         this.name = name;
         this.age = age;
-    }
-
-    // thinkメソッド用コンストラクタ
-    public Human(String hobby) {
         this.hobby = hobby;
     }
 
